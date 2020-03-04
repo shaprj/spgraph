@@ -1,0 +1,52 @@
+.root {
+    -fx-font-family: sans-serif;
+    -fx-font-weight: normal;
+    -fx-font-style: italic;
+    -fx-font-size: 14;
+    -fx-text-alignment: left;
+    -fx-vpos: center;
+    -fx-hpos: center;
+    -fx-background-color: transparent;
+}
+
+.group {
+    -fx-background-color: transparent;
+    -fx-background-radius: 0;
+    -fx-background-insets: 0;
+    -fx-border-width: .5 .5 .5 .5;
+    -fx-border-color: white;
+}
+
+#vertical-grid-line {
+    -fx-stroke-dash-array: 1 1 1 1;
+    -fx-stroke-width: 0.3;
+    -fx-stroke: gray;
+}
+
+#horizontal-grid-line {
+    -fx-stroke-dash-array: 1 1 1 1;
+    -fx-stroke-width: 0.3;
+    -fx-stroke: gray;
+}
+
+#gridPanel {
+    -fx-background-color: transparent;
+    -fx-background-radius: 0;
+    -fx-background-insets: 0;
+    -fx-border-width: .5 .5 .5 .5;
+    -fx-border-color: white;
+    -fx-border-style: dashed;
+}
+
+#SP-grid-node-label {
+    -fx-background-color: transparent;
+    -fx-text-fill: black;
+    -fx-border-color: transparent;
+}
+
+#toolbar-button-group {
+    -fx-border-color: black;
+    -fx-border-insets: 1;
+    -fx-border-width: 1;
+    -fx-border-style: dashed;
+}
